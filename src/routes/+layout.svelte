@@ -6,10 +6,10 @@
 <div class="flex flex-col min-h-screen p-4">
     <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur border-b border-accent">
         <div class="container-custom py-4">
-            <nav class="flex items-center justify-between">
-                <div class="flex items-center gap-2">
-                    <img src="/images/syndeos-logo.svg" alt="Syndeos Logo" class="h-10 w-10" />
-                    <span class="text-2xl font-semibold text-primary-900">Syndeos</span>
+            <nav class="flex items-center justify-center md:justify-between">
+                <div class="flex items-center gap-4">
+                    <img src="/images/syndeos-logo.svg" alt="Syndeos Logo" class="w-20 md:w-16" />
+                    <span class="text-4xl font-semibold text-primary-900 md:text-3xl">Syndeos</span>
                 </div>
 
                 <div class="hidden md:flex items-center gap-8">
@@ -20,7 +20,7 @@
                        class="link transition-colors">GitHub</a>
                 </div>
 
-                <div class="flex md:hidden">
+                <div class="flex hidden">
                     <!-- Mobile menu button -->
                     <button type="button" class="p-2 text-primary-800" aria-label="Toggle menu">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

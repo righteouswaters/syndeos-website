@@ -295,10 +295,10 @@ bun run tauri build`;
 </section>
 
 <!-- CTA Section -->
-<section class="py-20 bg-primary-900 text-white">
+<section class="py-20 bg-primary-900">
     <div class="container-custom">
         <div class="text-center max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Simplify Your Server Management?</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Simplify Your Server Management?</h2>
             <p class="text-lg text-primary-200 mb-8">
                 Download Syndeos today and experience the power of managing your servers with a modern, intuitive interface.
             </p>
@@ -309,7 +309,7 @@ bun run tauri build`;
                     </svg>
                     Download Latest Release
                 </a>
-                <a href="https://github.com/righteouswaters/syndeos" class="btn btn-outline border-white text-white hover:bg-white/10">
+                <a href="https://github.com/righteouswaters/syndeos" class="btn btn-outline border-white hover:bg-white/10">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
