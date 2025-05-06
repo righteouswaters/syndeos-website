@@ -1,2 +1,102 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/* Custom variables - define your colors here */
+:root {
+    --color-primary: #3d5a80; /* Deep blue */
+    --color-primary-dark: #293241; /* Dark blue/navy */
+    --color-accent: #ee6c4d; /* Orange/coral */
+    --color-white: #ffffff;
+    --color-light-bg: #f7fbfd;
+    --color-gray-light: #eef7fb;
+}
+
+/* Custom container for consistency */
+.container-custom {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Custom button styles that match your brand colors */
+.link {
+   text-decoration-line: underline;
+}
+
+.link:hover {
+   color: var(--color-accent);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: #d85e40; /* Darker shade of accent */
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn-outline:hover {
+    background-color: var(--color-light-bg);
+}
+
+/* Additional utility classes */
+.text-accent {
+    color: var(--color-accent);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-primary-dark {
+    color: var(--color-primary-dark);
+}
+
+.bg-accent {
+    background-color: var(--color-accent);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-primary-dark {
+    background-color: var(--color-primary-dark);
+}
+
+.bg-light {
+    background-color: var(--color-light-bg);
+}
+
+.border-primary {
+    border-color: var(--color-primary);
+}
+
+.border-accent {
+    border-color: var(--color-accent);
+}
+
+/* Shadow utility */
+.shadow-soft {
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06);
+}

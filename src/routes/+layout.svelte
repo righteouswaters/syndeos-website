@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex flex-col min-h-screen p-4">
-    <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur border-b border-primary-200">
+    <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur border-b border-accent">
         <div class="container-custom py-4">
             <nav class="flex items-center justify-between">
                 <div class="flex items-center gap-2">
@@ -13,11 +13,11 @@
                 </div>
 
                 <div class="hidden md:flex items-center gap-8">
-                    <a href="#features" class="text-primary-700 hover:text-accent-600 transition-colors">Features</a>
-                    <a href="#getting-started" class="text-primary-700 hover:text-accent-600 transition-colors">Getting Started</a>
-                    <a href="#documentation" class="text-primary-700 hover:text-accent-600 transition-colors">Documentation</a>
+                    <a href="#features" class="link transition-colors">Features</a>
+                    <a href="#getting-started" class="link transition-colors">Getting Started</a>
+                    <a href="#documentation" class="link transition-colors">Documentation</a>
                     <a href="https://github.com/righteouswaters/syndeos" target="_blank" rel="noopener noreferrer"
-                       class="text-primary-700 hover:text-accent-600 transition-colors">GitHub</a>
+                       class="link transition-colors">GitHub</a>
                 </div>
 
                 <div class="flex md:hidden">
@@ -51,27 +51,27 @@
                 </div>
 
                 <div>
-                    <h3 class="text-lg font-semibold text-white mb-4">Resources</h3>
+                    <h3 class="text-lg font-semibold mb-4">Resources</h3>
                     <ul class="space-y-2 text-primary-300">
-                        <li><a href="https://github.com/righteouswaters/syndeos" class="hover:text-white transition-colors">GitHub</a></li>
-                        <li><a href="https://github.com/righteouswaters/syndeos/releases" class="hover:text-white transition-colors">Releases</a></li>
-                        <li><a href="https://github.com/righteouswaters/syndeos/issues" class="hover:text-white transition-colors">Issues</a></li>
-                        <li><a href="https://github.com/righteouswaters/syndeos/blob/main/CONTRIBUTING.md" class="hover:text-white transition-colors">Contributing</a></li>
+                        <li><a href="https://github.com/righteouswaters/syndeos" class="link transition-colors">GitHub</a></li>
+                        <li><a href="https://github.com/righteouswaters/syndeos/releases" class="link transition-colors">Releases</a></li>
+                        <li><a href="https://github.com/righteouswaters/syndeos/issues" class="link transition-colors">Issues</a></li>
+                        <li><a href="https://github.com/righteouswaters/syndeos/blob/main/CONTRIBUTING.md" class="link transition-colors">Contributing</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h3 class="text-lg font-semibold text-white mb-4">Legal</h3>
+                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
                     <ul class="space-y-2 text-primary-300">
-                        <li><a href="#" class="hover:text-white transition-colors">License</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="link transition-colors">License</a></li>
+                        <li><a href="#" class="link transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="link transition-colors">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
 
-            <div class="mt-12 pt-8 border-t border-primary-800 text-center text-primary-400">
-                <p>© {new Date().getFullYear()} Syndeos. All rights reserved. Released under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" class="text-accent-400 hover:text-accent-300">GNU GPL3 License</a>.</p>
+            <div class="mt-12 pt-8 border-t border-accent text-center text-primary-400">
+                <p>© {new Date().getFullYear()} Syndeos. All rights reserved. Released under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" class="link transition-colors">GNU GPL3 License</a>.</p>
             </div>
         </div>
     </footer>

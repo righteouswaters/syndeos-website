@@ -36,7 +36,8 @@
         }
     ];
 
-    const installCode = `# Clone the repository
+    const installCode = `
+# Clone the repository
 git clone https://github.com/righteouswaters/syndeos.git
 cd syndeos
 
