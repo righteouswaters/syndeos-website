@@ -184,7 +184,7 @@ bun run tauri build`;
             </div>
 
             <div class="rounded-lg overflow-hidden shadow-xl">
-                <img src="/images/syndeos-dashboard.png" alt="Syndeos Screenshot" class="w-full" />
+                <img src="/images/syndeos-ssh-keys.png" alt="Syndeos Screenshot" class="w-full" />
             </div>
         </div>
     </div>
